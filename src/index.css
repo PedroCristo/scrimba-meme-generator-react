@@ -1,4 +1,3 @@
-
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
@@ -14,7 +13,6 @@ body {
 
 
 /* Header */
-
 .header {
   display: flex;
   align-items: center;
@@ -27,14 +25,14 @@ body {
 }
 
 .header .title {
- display: flex;
- margin-left: 37px;
+  display: flex;
+  margin-left: 37px;
 }
 
 .header .title h3 {
- font-size: 20px;
- font-weight: 700;
- line-height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
 }
 
 .header img {
@@ -47,4 +45,44 @@ body {
   margin-right: 37px;
   font-weight: 500;
   font-size: 12px;
+}
+
+/* Form */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form input {
+  margin: 36px 8px;
+  width: 280px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  outline: none;
+  padding-left: 10px;
+
+}
+
+.form button {
+  display: block;
+  margin: 0 auto;
+  width: 570px;
+  height: 60px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transition-property: background;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form button:hover {
+  background: linear-gradient(-25deg, #711F8D 1.55%, #A818DA 100%);
+
 }
